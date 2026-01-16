@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using StellarArchitect.Physics;
 
 /// <summary>
 /// Physics Harness - Console application to validate formation logic

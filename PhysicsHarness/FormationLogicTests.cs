@@ -1,5 +1,6 @@
 using System;
 using Xunit;
+using StellarArchitect.Physics;
 
 /// <summary>
 /// Unit tests for Formation Logic
