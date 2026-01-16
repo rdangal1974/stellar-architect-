@@ -3,16 +3,10 @@ C:\dev\steller\stellar-architect\PhysicsHarness\bin\Debug\net9.0\PhysicsHarness.
 C:\dev\steller\stellar-architect\PhysicsHarness\bin\Debug\net9.0\PhysicsHarness.runtimeconfig.json
 C:\dev\steller\stellar-architect\PhysicsHarness\bin\Debug\net9.0\PhysicsHarness.dll
 C:\dev\steller\stellar-architect\PhysicsHarness\bin\Debug\net9.0\PhysicsHarness.pdb
-C:\dev\steller\stellar-architect\PhysicsHarness\bin\Debug\net9.0\xunit.abstractions.dll
-C:\dev\steller\stellar-architect\PhysicsHarness\bin\Debug\net9.0\xunit.assert.dll
-C:\dev\steller\stellar-architect\PhysicsHarness\bin\Debug\net9.0\xunit.core.dll
-C:\dev\steller\stellar-architect\PhysicsHarness\bin\Debug\net9.0\xunit.execution.dotnet.dll
-C:\dev\steller\stellar-architect\PhysicsHarness\obj\Debug\net9.0\PhysicsHarness.csproj.AssemblyReference.cache
 C:\dev\steller\stellar-architect\PhysicsHarness\obj\Debug\net9.0\PhysicsHarness.GeneratedMSBuildEditorConfig.editorconfig
 C:\dev\steller\stellar-architect\PhysicsHarness\obj\Debug\net9.0\PhysicsHarness.AssemblyInfoInputs.cache
 C:\dev\steller\stellar-architect\PhysicsHarness\obj\Debug\net9.0\PhysicsHarness.AssemblyInfo.cs
 C:\dev\steller\stellar-architect\PhysicsHarness\obj\Debug\net9.0\PhysicsHarness.csproj.CoreCompileInputs.cache
-C:\dev\steller\stellar-architect\PhysicsHarness\obj\Debug\net9.0\PhysicsH.0DA0CD5B.Up2Date
 C:\dev\steller\stellar-architect\PhysicsHarness\obj\Debug\net9.0\PhysicsHarness.dll
 C:\dev\steller\stellar-architect\PhysicsHarness\obj\Debug\net9.0\refint\PhysicsHarness.dll
 C:\dev\steller\stellar-architect\PhysicsHarness\obj\Debug\net9.0\PhysicsHarness.pdb
