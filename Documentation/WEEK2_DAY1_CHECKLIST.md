@@ -8,8 +8,11 @@
 
 ## ? Phase 1: Unity Opens (5 minutes)
 
+**?? DETAILED INSTRUCTIONS:** See `Documentation/HOW_TO_OPEN_UNITY.md` for step-by-step guide
+
+### Quick Steps:
 - [ ] Unity Hub opened
-- [ ] Project added to Unity Hub
+- [ ] Project added to Unity Hub (`C:\dev\steller\stellar-architect`)
 - [ ] Unity 2022.3 LTS selected
 - [ ] Project opened (wait for loading...)
 - [ ] Scripts compiling...
@@ -21,6 +24,9 @@
 2. Check which script has the error
 3. Make sure all 12 scripts exist in `Assets/Scripts/Physics/`
 4. Try: Assets ? Reimport All
+
+**Need help opening Unity?** 
+? See: `Documentation/HOW_TO_OPEN_UNITY.md` (detailed step-by-step with screenshots)
 
 **Time Completed:** ___:___ AM/PM
 
