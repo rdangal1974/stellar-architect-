@@ -39,9 +39,22 @@ ExportedObj/
 *.opendb
 *.VC.db
 
-# Build artifacts
+# Build artifacts (Unity)
 /[Bb]in/
 /[Oo]bj/
+
+# .NET Build artifacts (PhysicsHarness)
+PhysicsHarness/bin/
+PhysicsHarness/obj/
+PhysicsHarness/*.dll
+PhysicsHarness/*.exe
+PhysicsHarness/*.pdb
+PhysicsHarness/*.cache
+PhysicsHarness/*.json
+!PhysicsHarness/*.csproj
+PhysicsHarness/**/*.dll
+PhysicsHarness/**/*.cache
+PhysicsHarness/**/*.txt
 
 # Unity3D generated meta files
 *.pidb.meta
