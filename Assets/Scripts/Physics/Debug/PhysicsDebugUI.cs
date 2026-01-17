@@ -55,7 +55,12 @@ namespace StellarArchitect.Physics.Debug
         private void OnGUI()
         {
             if (!showDebugUI) return;
-            if (labelStyle == null) SetupStyles();
+            
+            // Setup styles if not already done (lazy initialization)
+            if (labelStyle == null || boxStyle == null)
+            {
+                SetupStyles();
+            }
 
             float yOffset = 10f;
             float lineHeight = fontSize + 4;
@@ -166,7 +171,8 @@ namespace StellarArchitect.Physics.Debug
 
         private void OnValidate()
         {
-            SetupStyles();
+            // Don't setup styles here - will be done in OnGUI
+            // This prevents "GUI functions can only be called from OnGUI" error
         }
 
         // Toggle UI with 'H' key
