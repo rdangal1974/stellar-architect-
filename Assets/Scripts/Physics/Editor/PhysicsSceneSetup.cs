@@ -102,10 +102,11 @@ namespace StellarArchitect.Physics.Editor
                 string assetPath = AssetDatabase.GUIDToAssetPath(constants[0]);
                 var constantsAsset = AssetDatabase.LoadAssetAtPath<Config.PhysicsConstants>(assetPath);
                 
-                // Use reflection to set the private field (for editor setup)
-                var field = typeof(GravitySystem).GetField("physicsConstants", 
-                    System.Reflection.BindingFlags.NonPublic | System.Reflection.BindingFlags.Instance);
-                field?.SetValue(gravitySystem, constantsAsset);
+                // Use SerializedObject for reliable serialization (better than reflection)
+                var serializedObject = new SerializedObject(gravitySystem);
+                var physicsConstantsProperty = serializedObject.FindProperty("physicsConstants");
+                physicsConstantsProperty.objectReferenceValue = constantsAsset;
+                serializedObject.ApplyModifiedProperties();
                 
                 UnityEngine.Debug.Log($"? Physics Manager created with constants: {assetPath}");
             }
