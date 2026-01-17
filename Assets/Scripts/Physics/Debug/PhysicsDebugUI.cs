@@ -34,7 +34,8 @@ namespace StellarArchitect.Physics.Debug
 
         private void Start()
         {
-            SetupStyles();
+            // Don't setup styles here - will be lazily initialized in OnGUI
+            // This prevents "GUI functions can only be called from OnGUI" error
         }
 
         private void Update()
