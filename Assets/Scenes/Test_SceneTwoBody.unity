@@ -383,6 +383,7 @@ GameObject:
   - component: {fileID: 612032803}
   - component: {fileID: 612032802}
   - component: {fileID: 612032801}
+  - component: {fileID: 612032804}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -464,6 +465,25 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &612032804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 612032800}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d5af5822cc4bd748b033628a14d9467, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::StellarArchitect.Physics.Debug.PhysicsDebugUI
+  showDebugUI: 1
+  showBodyInfo: 1
+  showStabilityInfo: 1
+  showPerformanceInfo: 1
+  fontSize: 14
+  textColor: {r: 1, g: 1, b: 1, a: 1}
+  backgroundColor: {r: 0, g: 0, b: 0, a: 0.7}
 --- !u!1 &1228873346
 GameObject:
   m_ObjectHideFlags: 0
