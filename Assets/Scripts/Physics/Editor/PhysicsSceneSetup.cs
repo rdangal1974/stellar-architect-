@@ -20,7 +20,7 @@ namespace StellarArchitect.Physics.Editor
             
             SetupCamera();
             
-            Debug.Log("? Two-body test scene created! Press Play to test gravity.");
+            UnityEngine.Debug.Log("? Two-body test scene created! Press Play to test gravity.");
         }
 
         [MenuItem("Stellar Architect/Physics/Create Test Scene (3 Bodies)")]
@@ -33,7 +33,7 @@ namespace StellarArchitect.Physics.Editor
             
             SetupCamera();
             
-            Debug.Log("? Three-body test scene created! Press Play to test gravity.");
+            UnityEngine.Debug.Log("? Three-body test scene created! Press Play to test gravity.");
         }
 
         [MenuItem("Stellar Architect/Physics/Create Test Scene (Binary System)")]
@@ -51,7 +51,7 @@ namespace StellarArchitect.Physics.Editor
             
             SetupCamera();
             
-            Debug.Log("? Binary system test scene created! Stars should orbit each other.");
+            UnityEngine.Debug.Log("? Binary system test scene created! Stars should orbit each other.");
         }
 
         [MenuItem("Stellar Architect/Physics/Create Physics Constants Asset")]
@@ -79,7 +79,7 @@ namespace StellarArchitect.Physics.Editor
             EditorUtility.FocusProjectWindow();
             Selection.activeObject = constants;
             
-            Debug.Log($"? PhysicsConstants asset created at: {assetPath}");
+            UnityEngine.Debug.Log($"? PhysicsConstants asset created at: {assetPath}");
         }
 
         private static void CreatePhysicsManager()
@@ -88,7 +88,7 @@ namespace StellarArchitect.Physics.Editor
             var existing = GameObject.Find("Physics Manager");
             if (existing != null)
             {
-                Debug.LogWarning("?? Physics Manager already exists. Using existing instance.");
+                UnityEngine.Debug.LogWarning("?? Physics Manager already exists. Using existing instance.");
                 return;
             }
 
@@ -107,11 +107,11 @@ namespace StellarArchitect.Physics.Editor
                     System.Reflection.BindingFlags.NonPublic | System.Reflection.BindingFlags.Instance);
                 field?.SetValue(gravitySystem, constantsAsset);
                 
-                Debug.Log($"? Physics Manager created with constants: {assetPath}");
+                UnityEngine.Debug.Log($"? Physics Manager created with constants: {assetPath}");
             }
             else
             {
-                Debug.LogWarning("?? No PhysicsConstants asset found. Use menu: Stellar Architect/Physics/Create Physics Constants Asset");
+                UnityEngine.Debug.LogWarning("?? No PhysicsConstants asset found. Use menu: Stellar Architect/Physics/Create Physics Constants Asset");
             }
         }
 

@@ -80,7 +80,7 @@ namespace StellarArchitect.Physics.Systems
         {
             if (physicsConstants == null)
             {
-                Debug.LogError("PhysicsConstants not assigned! Creating default.");
+                UnityEngine.Debug.LogError("PhysicsConstants not assigned! Creating default.");
                 physicsConstants = ScriptableObject.CreateInstance<PhysicsConstants>();
             }
 
@@ -88,7 +88,7 @@ namespace StellarArchitect.Physics.Systems
             gravityCalculator = new NewtonianGravityCalculator(physicsConstants);
             stabilityCalculator = new StabilityCalculator(physicsConstants, gravityCalculator);
 
-            Debug.Log("GravitySystem initialized with Newtonian gravity and stability calculations.");
+            UnityEngine.Debug.Log("GravitySystem initialized with Newtonian gravity and stability calculations.");
         }
 
         #endregion
@@ -103,7 +103,7 @@ namespace StellarArchitect.Physics.Systems
             if (!registeredBodies.Contains(body))
             {
                 registeredBodies.Add(body);
-                Debug.Log($"Registered body: {body} (Total: {registeredBodies.Count})");
+                UnityEngine.Debug.Log($"Registered body: {body} (Total: {registeredBodies.Count})");
             }
         }
 
@@ -114,7 +114,7 @@ namespace StellarArchitect.Physics.Systems
         {
             if (registeredBodies.Remove(body))
             {
-                Debug.Log($"Unregistered body: {body} (Total: {registeredBodies.Count})");
+                UnityEngine.Debug.Log($"Unregistered body: {body} (Total: {registeredBodies.Count})");
             }
         }
 
@@ -185,7 +185,7 @@ namespace StellarArchitect.Physics.Systems
             if (!stabilityCalculator.IsSystemStable(registeredBodies))
             {
                 float bindingEnergy = stabilityCalculator.CalculateBindingEnergy(registeredBodies);
-                Debug.LogWarning($"System unstable! Binding energy: {bindingEnergy:F3} (threshold: {physicsConstants.stabilityThreshold})");
+                UnityEngine.Debug.LogWarning($"System unstable! Binding energy: {bindingEnergy:F3} (threshold: {physicsConstants.stabilityThreshold})");
             }
         }
 

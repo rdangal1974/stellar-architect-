@@ -26,7 +26,7 @@ namespace StellarArchitect.Physics.Components
             }
             else
             {
-                Debug.LogWarning($"GravitySystem not found! {gameObject.name} will not participate in physics.");
+                UnityEngine.Debug.LogWarning($"GravitySystem not found! {gameObject.name} will not participate in physics.");
             }
         }
 
