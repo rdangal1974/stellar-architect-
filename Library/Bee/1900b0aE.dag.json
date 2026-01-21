@@ -166,22 +166,21 @@
         156,
         157,
         158,
-        159,
-        160
+        159
       ],
       "DebugActionIndex": 0
     },
     {
-      "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Center.Common.UnityAdditionalFile.txt",
-      "DisplayName": "Writing Unity.Multiplayer.Center.Common.UnityAdditionalFile.txt",
+      "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.UnityAdditionalFile.txt",
+      "DisplayName": "Writing Assembly-CSharp.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-      "PayloadOffset": 116,
+      "PayloadOffset": 100,
       "PayloadLength": 32,
       "PayloadDebugContentSnippet": "C:\\dev\\steller\\stellar-archite",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
-        "Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Center.Common.UnityAdditionalFile.txt"
+        "Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.UnityAdditionalFile.txt"
       ],
       "OutputFlags": [
         2
@@ -189,16 +188,16 @@
       "DebugActionIndex": 1
     },
     {
-      "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Center.Common.rsp",
-      "DisplayName": "Writing Unity.Multiplayer.Center.Common.rsp",
+      "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp",
+      "DisplayName": "Writing Assembly-CSharp.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 250,
-      "PayloadLength": 37891,
+      "PayloadOffset": 218,
+      "PayloadLength": 37638,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
-        "Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Center.Common.rsp"
+        "Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp"
       ],
       "OutputFlags": [
         2
@@ -206,16 +205,16 @@
       "DebugActionIndex": 2
     },
     {
-      "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Center.Common.rsp2",
-      "DisplayName": "Writing Unity.Multiplayer.Center.Common.rsp2",
+      "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp2",
+      "DisplayName": "Writing Assembly-CSharp.rsp2",
       "ActionType": "WriteFile",
-      "PayloadOffset": 38244,
-      "PayloadLength": 45,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\dev\\steller\\stell",
+      "PayloadOffset": 37943,
+      "PayloadLength": 0,
+      "PayloadDebugContentSnippet": "",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
-        "Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Center.Common.rsp2"
+        "Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp2"
       ],
       "OutputFlags": [
         2
@@ -223,11 +222,10 @@
       "DebugActionIndex": 3
     },
     {
-      "Annotation": "Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Center.Common.dll (+2 others)",
-      "DisplayName": "Compiling C# (Unity.Multiplayer.Center.Common)",
-      "Action": "\"C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.4f1\\Editor\\Data\\NetCoreRuntime\\dotnet.exe\" exec \"C:/Program Files/Unity/Hub/Editor/6000.3.4f1/Editor/Data/DotNetSdkRoslyn/csc.dll\" /nostdlib /noconfig /shared \"@Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Center.Common.rsp\" \"@Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Center.Common.rsp2\"",
+      "Annotation": "Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll (+2 others)",
+      "DisplayName": "Compiling C# (Assembly-CSharp)",
+      "Action": "\"C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.4f1\\Editor\\Data\\NetCoreRuntime\\dotnet.exe\" exec \"C:/Program Files/Unity/Hub/Editor/6000.3.4f1/Editor/Data/DotNetSdkRoslyn/csc.dll\" /nostdlib /noconfig /shared \"@Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp\" \"@Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp2\"",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/6000.3.4f1/Editor/Data/Managed/UnityEditor.Graphs.dll",
         "C:/Program Files/Unity/Hub/Editor/6000.3.4f1/Editor/Data/Managed/UnityEngine/UnityEditor.AccessibilityModule.dll",
         "C:/Program Files/Unity/Hub/Editor/6000.3.4f1/Editor/Data/Managed/UnityEngine/UnityEditor.AdaptivePerformanceModule.dll",
         "C:/Program Files/Unity/Hub/Editor/6000.3.4f1/Editor/Data/Managed/UnityEngine/UnityEditor.AssetComplianceModule.dll",
@@ -484,20 +482,31 @@
         "C:/Program Files/Unity/Hub/Editor/6000.3.4f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XPath.XDocument.dll",
         "C:/Program Files/Unity/Hub/Editor/6000.3.4f1/Editor/Data/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll",
         "C:/Program Files/Unity/Hub/Editor/6000.3.4f1/Editor/Data/NetStandard/ref/2.1.0/netstandard.dll",
-        "C:/Program Files/Unity/Hub/Editor/6000.3.4f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll",
-        "C:/Program Files/Unity/Hub/Editor/6000.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll",
-        "Library/PackageCache/com.unity.multiplayer.center@f01f4ba8d00a/Common/AnswerData.cs",
-        "Library/PackageCache/com.unity.multiplayer.center@f01f4ba8d00a/Common/IOnboardingSection.cs",
-        "Library/PackageCache/com.unity.multiplayer.center@f01f4ba8d00a/Common/IOnboardingSectionAnalyticsProvider.cs",
-        "Library/PackageCache/com.unity.multiplayer.center@f01f4ba8d00a/Common/Preset.cs",
-        "Library/PackageCache/com.unity.multiplayer.center@f01f4ba8d00a/Common/SelectedSolutionsData.cs",
-        "Library/PackageCache/com.unity.multiplayer.center@f01f4ba8d00a/Common/StyleConstants.cs",
+        "Assets/Scripts/Gameplay/InputManager.cs",
+        "Assets/Scripts/Gameplay/PuzzleManager.cs",
+        "Assets/Scripts/Gameplay/StarFormationDetector.cs",
+        "Assets/Scripts/Physics/Components/PhysicsBody.cs",
+        "Assets/Scripts/Physics/Components/PhysicsBodyAutoRegister.cs",
+        "Assets/Scripts/Physics/Components/PhysicsBodyTrail.cs",
+        "Assets/Scripts/Physics/Config/PhysicsConstants.cs",
+        "Assets/Scripts/Physics/Core/IGravityCalculator.cs",
+        "Assets/Scripts/Physics/Core/IPhysicsBody.cs",
+        "Assets/Scripts/Physics/Core/IStabilityCalculator.cs",
+        "Assets/Scripts/Physics/Debug/PhysicsDebugUI.cs",
+        "Assets/Scripts/Physics/Systems/GravitySystem.cs",
+        "Assets/Scripts/Physics/Systems/NewtonianGravityCalculator.cs",
+        "Assets/Scripts/Physics/Systems/StabilityCalculator.cs",
         "C:/Program Files/Unity/Hub/Editor/6000.3.4f1/Editor/Data/Tools/BuildPipeline/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll",
         "C:/Program Files/Unity/Hub/Editor/6000.3.4f1/Editor/Data/Tools/BuildPipeline/Unity.SourceGenerators/Unity.SourceGenerators.dll",
         "C:/Program Files/Unity/Hub/Editor/6000.3.4f1/Editor/Data/Tools/BuildPipeline/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll",
-        "Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Center.Common.rsp"
+        "Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp"
       ],
       "InputFlags": [
+        0,
+        0,
+        0,
+        0,
+        0,
         0,
         0,
         0,
@@ -769,9 +778,9 @@
         8
       ],
       "Outputs": [
-        "Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Center.Common.dll",
-        "Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Center.Common.pdb",
-        "Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Center.Common.ref.dll"
+        "Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll",
+        "Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.pdb",
+        "Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.ref.dll"
       ],
       "OutputFlags": [
         0,
@@ -782,7 +791,7 @@
         1,
         2,
         3,
-        144
+        141
       ],
       "ToUseDependencies": [
         1,
@@ -795,15 +804,14 @@
           "Value": "0"
         }
       ],
-      "CachingMode": "ByDirectInputs",
       "DebugActionIndex": 4
     },
     {
-      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.Graphs.dll_E09E66BF46F06747.mvfrm",
+      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.AccessibilityModule.dll_55D540E1D269E7BC.mvfrm",
       "DisplayName": "Checking for moved APIs",
-      "Action": "\"C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.4f1\\Editor\\Data\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Unity/Hub/Editor/6000.3.4f1/Editor/Data/Tools/BuildPipeline/Compilation/ApiUpdater/ApiUpdater.MovedFromExtractor.dll\" \"Library\\Bee\\artifacts\\mvdfrm\\UnityEditor.Graphs.dll_E09E66BF46F06747.mvfrm\" \"C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.4f1\\Editor\\Data\\Managed\\UnityEditor.Graphs.dll\"",
+      "Action": "\"C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.4f1\\Editor\\Data\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Unity/Hub/Editor/6000.3.4f1/Editor/Data/Tools/BuildPipeline/Compilation/ApiUpdater/ApiUpdater.MovedFromExtractor.dll\" \"Library\\Bee\\artifacts\\mvdfrm\\UnityEditor.AccessibilityModule.dll_55D540E1D269E7BC.mvfrm\" \"C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.4f1\\Editor\\Data\\Managed\\UnityEngine\\UnityEditor.AccessibilityModule.dll\"",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/6000.3.4f1/Editor/Data/Managed/UnityEditor.Graphs.dll",
+        "C:/Program Files/Unity/Hub/Editor/6000.3.4f1/Editor/Data/Managed/UnityEngine/UnityEditor.AccessibilityModule.dll",
         "C:/Program Files/Unity/Hub/Editor/6000.3.4f1/Editor/Data/Tools/BuildPipeline/Compilation/ApiUpdater/ApiUpdater.MovedFromExtractor.dll"
       ],
       "InputFlags": [
@@ -811,7 +819,7 @@
         0
       ],
       "Outputs": [
-        "Library/Bee/artifacts/mvdfrm/UnityEditor.Graphs.dll_E09E66BF46F06747.mvfrm"
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.AccessibilityModule.dll_55D540E1D269E7BC.mvfrm"
       ],
       "OutputFlags": [
         0
@@ -961,40 +969,18 @@
         137,
         138,
         139,
-        140,
-        141,
-        142,
+        146,
+        147,
+        148,
         149,
         150,
         151,
-        152,
+        154,
         155,
         156,
-        157,
-        158
+        157
       ],
       "DebugActionIndex": 6
-    },
-    {
-      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.AccessibilityModule.dll_55D540E1D269E7BC.mvfrm",
-      "DisplayName": "Checking for moved APIs",
-      "Action": "\"C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.4f1\\Editor\\Data\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Unity/Hub/Editor/6000.3.4f1/Editor/Data/Tools/BuildPipeline/Compilation/ApiUpdater/ApiUpdater.MovedFromExtractor.dll\" \"Library\\Bee\\artifacts\\mvdfrm\\UnityEditor.AccessibilityModule.dll_55D540E1D269E7BC.mvfrm\" \"C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.4f1\\Editor\\Data\\Managed\\UnityEngine\\UnityEditor.AccessibilityModule.dll\"",
-      "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/6000.3.4f1/Editor/Data/Managed/UnityEngine/UnityEditor.AccessibilityModule.dll",
-        "C:/Program Files/Unity/Hub/Editor/6000.3.4f1/Editor/Data/Tools/BuildPipeline/Compilation/ApiUpdater/ApiUpdater.MovedFromExtractor.dll"
-      ],
-      "InputFlags": [
-        0,
-        0
-      ],
-      "Outputs": [
-        "Library/Bee/artifacts/mvdfrm/UnityEditor.AccessibilityModule.dll_55D540E1D269E7BC.mvfrm"
-      ],
-      "OutputFlags": [
-        0
-      ],
-      "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 7
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.AdaptivePerformanceModule.dll_7B726311D6FC8508.mvfrm",
@@ -1015,7 +1001,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 8
+      "DebugActionIndex": 7
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.AssetComplianceModule.dll_B4047E52E2834EE9.mvfrm",
@@ -1036,7 +1022,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 9
+      "DebugActionIndex": 8
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.BuildProfileModule.dll_960FC415902B0631.mvfrm",
@@ -1057,7 +1043,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 10
+      "DebugActionIndex": 9
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.ClothModule.dll_29610748F2030EB8.mvfrm",
@@ -1078,7 +1064,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 11
+      "DebugActionIndex": 10
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.CoreBusinessMetricsModule.dll_FB5D5C8BFD43B402.mvfrm",
@@ -1099,7 +1085,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 12
+      "DebugActionIndex": 11
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.CoreModule.dll_0AD2B12B97BE3215.mvfrm",
@@ -1120,7 +1106,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 13
+      "DebugActionIndex": 12
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.DeviceSimulatorModule.dll_7B296E6467C76ABC.mvfrm",
@@ -1141,7 +1127,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 14
+      "DebugActionIndex": 13
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.DiagnosticsModule.dll_CCB4858DB9348E0A.mvfrm",
@@ -1162,7 +1148,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 15
+      "DebugActionIndex": 14
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.dll_4B69F9882BF2FB70.mvfrm",
@@ -1183,7 +1169,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 16
+      "DebugActionIndex": 15
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.EditorToolbarModule.dll_8BD156B44BFF990C.mvfrm",
@@ -1204,7 +1190,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 17
+      "DebugActionIndex": 16
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.EmbreeModule.dll_711D2A12A7D9DEFE.mvfrm",
@@ -1225,7 +1211,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 18
+      "DebugActionIndex": 17
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.GIModule.dll_59F3E7A6539AC418.mvfrm",
@@ -1246,7 +1232,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 19
+      "DebugActionIndex": 18
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.GraphicsStateCollectionSerializerModule.dll_5BDDA67E7E71F4E4.mvfrm",
@@ -1267,7 +1253,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 20
+      "DebugActionIndex": 19
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.GraphViewModule.dll_46E14D6C090754A1.mvfrm",
@@ -1288,7 +1274,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 21
+      "DebugActionIndex": 20
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.GridAndSnapModule.dll_D66D6C0F3C994AF9.mvfrm",
@@ -1309,7 +1295,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 22
+      "DebugActionIndex": 21
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.GridModule.dll_E843CD19B012C80C.mvfrm",
@@ -1330,7 +1316,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 23
+      "DebugActionIndex": 22
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.HierarchyModule.dll_34555447C6E69363.mvfrm",
@@ -1351,7 +1337,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 24
+      "DebugActionIndex": 23
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.InAppPurchasingModule.dll_B15E797A0FEFCFE8.mvfrm",
@@ -1372,7 +1358,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 25
+      "DebugActionIndex": 24
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.LevelPlayModule.dll_E636D55C2F795BE6.mvfrm",
@@ -1393,7 +1379,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 26
+      "DebugActionIndex": 25
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.MediaModule.dll_8E38C3DF9632B862.mvfrm",
@@ -1414,7 +1400,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 27
+      "DebugActionIndex": 26
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.MultiplayerModule.dll_158F868A1AFFBC48.mvfrm",
@@ -1435,7 +1421,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 28
+      "DebugActionIndex": 27
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.Physics2DModule.dll_AC26C89C9EE16EF7.mvfrm",
@@ -1456,7 +1442,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 29
+      "DebugActionIndex": 28
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.PhysicsModule.dll_CDAD53CED132DD25.mvfrm",
@@ -1477,7 +1463,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 30
+      "DebugActionIndex": 29
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.PlayModeModule.dll_F0191B64AD11733D.mvfrm",
@@ -1498,7 +1484,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 31
+      "DebugActionIndex": 30
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.PresetsUIModule.dll_0247864E0B5FACA6.mvfrm",
@@ -1519,7 +1505,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 32
+      "DebugActionIndex": 31
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.PropertiesModule.dll_10AEF9522616F5E9.mvfrm",
@@ -1540,7 +1526,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 33
+      "DebugActionIndex": 32
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.QuickSearchModule.dll_57C4069B120B8A63.mvfrm",
@@ -1561,7 +1547,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 34
+      "DebugActionIndex": 33
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.SafeModeModule.dll_AA2529AB0E4863D6.mvfrm",
@@ -1582,7 +1568,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 35
+      "DebugActionIndex": 34
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.SceneTemplateModule.dll_AF70C7724AEC4344.mvfrm",
@@ -1603,7 +1589,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 36
+      "DebugActionIndex": 35
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.SceneViewModule.dll_85913073FE2A21AF.mvfrm",
@@ -1624,7 +1610,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 37
+      "DebugActionIndex": 36
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.ShaderBuildSettingsModule.dll_8398A9BAA9FBB64A.mvfrm",
@@ -1645,7 +1631,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 38
+      "DebugActionIndex": 37
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.ShaderCompilationModule.dll_D6A1E4E4489E691C.mvfrm",
@@ -1666,7 +1652,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 39
+      "DebugActionIndex": 38
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.ShaderFoundryModule.dll_EE5097B56D9BBFD2.mvfrm",
@@ -1687,7 +1673,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 40
+      "DebugActionIndex": 39
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.SketchUpModule.dll_923A0EFB5979FFED.mvfrm",
@@ -1708,7 +1694,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 41
+      "DebugActionIndex": 40
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.SpriteMaskModule.dll_CCA02CA3D49B2727.mvfrm",
@@ -1729,7 +1715,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 42
+      "DebugActionIndex": 41
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.SpriteShapeModule.dll_AF48975817DA66DA.mvfrm",
@@ -1750,7 +1736,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 43
+      "DebugActionIndex": 42
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.SubstanceModule.dll_F0C0DA4598BF2CAE.mvfrm",
@@ -1771,7 +1757,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 44
+      "DebugActionIndex": 43
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.TerrainModule.dll_E7F3CF3DA6F12613.mvfrm",
@@ -1792,7 +1778,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 45
+      "DebugActionIndex": 44
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.TextCoreFontEngineModule.dll_3383BF4F042E47F3.mvfrm",
@@ -1813,7 +1799,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 46
+      "DebugActionIndex": 45
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.TextCoreTextEngineModule.dll_7B6BF5C093B20111.mvfrm",
@@ -1834,7 +1820,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 47
+      "DebugActionIndex": 46
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.TextRenderingModule.dll_F913E9AD9D48F49D.mvfrm",
@@ -1855,7 +1841,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 48
+      "DebugActionIndex": 47
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.TilemapModule.dll_86F036BEBEAE071C.mvfrm",
@@ -1876,7 +1862,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 49
+      "DebugActionIndex": 48
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.TreeModule.dll_687EA63A1F83C754.mvfrm",
@@ -1897,7 +1883,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 50
+      "DebugActionIndex": 49
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.UIAutomationModule.dll_46B0B3062C9ECEF1.mvfrm",
@@ -1918,7 +1904,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 51
+      "DebugActionIndex": 50
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.UIBuilderModule.dll_9B69FA887BBFCDD5.mvfrm",
@@ -1939,7 +1925,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 52
+      "DebugActionIndex": 51
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.UIElementsModule.dll_3B8BF46DA60F4B31.mvfrm",
@@ -1960,7 +1946,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 53
+      "DebugActionIndex": 52
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.UIElementsSamplesModule.dll_CAD3826C659A744C.mvfrm",
@@ -1981,7 +1967,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 54
+      "DebugActionIndex": 53
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.UIToolkitAuthoringModule.dll_66DA53DC22B4CBB3.mvfrm",
@@ -2002,7 +1988,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 55
+      "DebugActionIndex": 54
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.UmbraModule.dll_3D4D5666A50CDB47.mvfrm",
@@ -2023,7 +2009,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 56
+      "DebugActionIndex": 55
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.UnityConnectModule.dll_9149D18BB50EEB4B.mvfrm",
@@ -2044,7 +2030,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 57
+      "DebugActionIndex": 56
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.VectorGraphicsModule.dll_9CB1A17B673066A4.mvfrm",
@@ -2065,7 +2051,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 58
+      "DebugActionIndex": 57
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.VFXModule.dll_C9119837ABFB4626.mvfrm",
@@ -2086,7 +2072,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 59
+      "DebugActionIndex": 58
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.VideoModule.dll_E7822EB8DA784B79.mvfrm",
@@ -2107,7 +2093,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 60
+      "DebugActionIndex": 59
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.XRModule.dll_42BC26503F27B480.mvfrm",
@@ -2128,7 +2114,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 61
+      "DebugActionIndex": 60
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.AccessibilityModule.dll_E21633094B626AE1.mvfrm",
@@ -2149,7 +2135,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 62
+      "DebugActionIndex": 61
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.AdaptivePerformanceModule.dll_3C01F7C81241D80D.mvfrm",
@@ -2170,7 +2156,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 63
+      "DebugActionIndex": 62
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.AIModule.dll_0026302823690FC9.mvfrm",
@@ -2191,7 +2177,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 64
+      "DebugActionIndex": 63
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.AndroidJNIModule.dll_B9D4DD40EF2EBA07.mvfrm",
@@ -2212,7 +2198,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 65
+      "DebugActionIndex": 64
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.AnimationModule.dll_1566C994E3642947.mvfrm",
@@ -2233,7 +2219,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 66
+      "DebugActionIndex": 65
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.ARModule.dll_B998F52B80866E92.mvfrm",
@@ -2254,7 +2240,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 67
+      "DebugActionIndex": 66
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.AssetBundleModule.dll_9BAD398C74723F55.mvfrm",
@@ -2275,7 +2261,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 68
+      "DebugActionIndex": 67
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.AudioModule.dll_88A566B249636079.mvfrm",
@@ -2296,7 +2282,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 69
+      "DebugActionIndex": 68
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.ClothModule.dll_EF8DC3AD23803F5D.mvfrm",
@@ -2317,7 +2303,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 70
+      "DebugActionIndex": 69
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.ClusterInputModule.dll_10E646A16696BE11.mvfrm",
@@ -2338,7 +2324,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 71
+      "DebugActionIndex": 70
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.ClusterRendererModule.dll_80D630D5D7827840.mvfrm",
@@ -2359,7 +2345,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 72
+      "DebugActionIndex": 71
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.ContentLoadModule.dll_34C392CD42F4E742.mvfrm",
@@ -2380,7 +2366,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 73
+      "DebugActionIndex": 72
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.CoreModule.dll_2DF3847E3FC39D40.mvfrm",
@@ -2401,7 +2387,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 74
+      "DebugActionIndex": 73
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.CrashReportingModule.dll_6D7C83958304F8D8.mvfrm",
@@ -2422,7 +2408,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 75
+      "DebugActionIndex": 74
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.DirectorModule.dll_A53BEC2B92133B5D.mvfrm",
@@ -2443,7 +2429,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 76
+      "DebugActionIndex": 75
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.dll_7E0E40608A668855.mvfrm",
@@ -2464,7 +2450,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 77
+      "DebugActionIndex": 76
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.DSPGraphModule.dll_AA8D4D9504740C7E.mvfrm",
@@ -2485,7 +2471,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 78
+      "DebugActionIndex": 77
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.GameCenterModule.dll_E422275BB56FAAF8.mvfrm",
@@ -2506,7 +2492,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 79
+      "DebugActionIndex": 78
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.GIModule.dll_98627935BF17F7E3.mvfrm",
@@ -2527,7 +2513,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 80
+      "DebugActionIndex": 79
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.GraphicsStateCollectionSerializerModule.dll_64D1736E4B713E49.mvfrm",
@@ -2548,7 +2534,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 81
+      "DebugActionIndex": 80
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.GridModule.dll_0B64A06C58183337.mvfrm",
@@ -2569,7 +2555,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 82
+      "DebugActionIndex": 81
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.HierarchyCoreModule.dll_5930CFE3BA0FC3D7.mvfrm",
@@ -2590,7 +2576,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 83
+      "DebugActionIndex": 82
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.HotReloadModule.dll_96AF879ABE9744C9.mvfrm",
@@ -2611,7 +2597,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 84
+      "DebugActionIndex": 83
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.IdentifiersModule.dll_7436C18236EB0D6D.mvfrm",
@@ -2632,7 +2618,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 85
+      "DebugActionIndex": 84
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.ImageConversionModule.dll_ECC82E8659A73034.mvfrm",
@@ -2653,7 +2639,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 86
+      "DebugActionIndex": 85
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.IMGUIModule.dll_C10506190F94F45A.mvfrm",
@@ -2674,7 +2660,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 87
+      "DebugActionIndex": 86
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.InputForUIModule.dll_E6D48175159047B4.mvfrm",
@@ -2695,7 +2681,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 88
+      "DebugActionIndex": 87
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.InputLegacyModule.dll_2CF254AB0C63F546.mvfrm",
@@ -2716,7 +2702,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 89
+      "DebugActionIndex": 88
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.InputModule.dll_EF1B2E62BF9B851D.mvfrm",
@@ -2737,7 +2723,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 90
+      "DebugActionIndex": 89
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.InsightsModule.dll_3F02B4BC1C908ADC.mvfrm",
@@ -2758,7 +2744,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 91
+      "DebugActionIndex": 90
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.JSONSerializeModule.dll_422DBC454A9DCB6B.mvfrm",
@@ -2779,7 +2765,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 92
+      "DebugActionIndex": 91
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.LocalizationModule.dll_4F3310F3FE12B10A.mvfrm",
@@ -2800,7 +2786,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 93
+      "DebugActionIndex": 92
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.MarshallingModule.dll_4415D821589A6CA7.mvfrm",
@@ -2821,7 +2807,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 94
+      "DebugActionIndex": 93
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.MultiplayerModule.dll_1B5556192D39CCCD.mvfrm",
@@ -2842,7 +2828,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 95
+      "DebugActionIndex": 94
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.ParticleSystemModule.dll_C08ECCE1F1168466.mvfrm",
@@ -2863,7 +2849,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 96
+      "DebugActionIndex": 95
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.PerformanceReportingModule.dll_4B8CAB25FE0871FF.mvfrm",
@@ -2884,7 +2870,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 97
+      "DebugActionIndex": 96
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.Physics2DModule.dll_620CB985846120DC.mvfrm",
@@ -2905,7 +2891,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 98
+      "DebugActionIndex": 97
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.PhysicsBackendPhysXModule.dll_1615DF54F4FE1ACC.mvfrm",
@@ -2926,7 +2912,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 99
+      "DebugActionIndex": 98
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.PhysicsModule.dll_C0280C793641C46A.mvfrm",
@@ -2947,7 +2933,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 100
+      "DebugActionIndex": 99
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.PropertiesModule.dll_115D669A285B0F34.mvfrm",
@@ -2968,7 +2954,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 101
+      "DebugActionIndex": 100
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.RenderAs2DModule.dll_5295292007B5596B.mvfrm",
@@ -2989,7 +2975,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 102
+      "DebugActionIndex": 101
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll_CC446569EF5249A5.mvfrm",
@@ -3010,7 +2996,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 103
+      "DebugActionIndex": 102
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.ScreenCaptureModule.dll_5C1569CA5F09F7CD.mvfrm",
@@ -3031,7 +3017,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 104
+      "DebugActionIndex": 103
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.ShaderRuntimeModule.dll_71EDDC379B65D556.mvfrm",
@@ -3052,7 +3038,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 105
+      "DebugActionIndex": 104
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.ShaderVariantAnalyticsModule.dll_36AFB13442C896C7.mvfrm",
@@ -3073,7 +3059,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 106
+      "DebugActionIndex": 105
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.SharedInternalsModule.dll_70D96D5BD0D52B84.mvfrm",
@@ -3094,7 +3080,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 107
+      "DebugActionIndex": 106
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.SpriteMaskModule.dll_CD4E99EBD6DF4072.mvfrm",
@@ -3115,7 +3101,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 108
+      "DebugActionIndex": 107
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.SpriteShapeModule.dll_B50E66E72A14775F.mvfrm",
@@ -3136,7 +3122,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 109
+      "DebugActionIndex": 108
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.StreamingModule.dll_C9FBB6E532EBE085.mvfrm",
@@ -3157,7 +3143,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 110
+      "DebugActionIndex": 109
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.SubstanceModule.dll_A6A6CB2E7E3EDE93.mvfrm",
@@ -3178,7 +3164,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 111
+      "DebugActionIndex": 110
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.SubsystemsModule.dll_37FC004DA5272885.mvfrm",
@@ -3199,7 +3185,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 112
+      "DebugActionIndex": 111
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.TerrainModule.dll_DA6E87E80C000D58.mvfrm",
@@ -3220,7 +3206,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 113
+      "DebugActionIndex": 112
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.TerrainPhysicsModule.dll_C10975B50A597EF3.mvfrm",
@@ -3241,7 +3227,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 114
+      "DebugActionIndex": 113
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.TextCoreFontEngineModule.dll_B1E33AA2172C06BE.mvfrm",
@@ -3262,7 +3248,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 115
+      "DebugActionIndex": 114
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.TextCoreTextEngineModule.dll_F9CB7113A6AFBFDC.mvfrm",
@@ -3283,7 +3269,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 116
+      "DebugActionIndex": 115
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.TextRenderingModule.dll_8554DBD5164177C2.mvfrm",
@@ -3304,7 +3290,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 117
+      "DebugActionIndex": 116
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.TilemapModule.dll_796AEF6923BCEE61.mvfrm",
@@ -3325,7 +3311,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 118
+      "DebugActionIndex": 117
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.TLSModule.dll_5454A21C453DEABE.mvfrm",
@@ -3346,7 +3332,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 119
+      "DebugActionIndex": 118
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.UIElementsModule.dll_3C3A61B5A853647C.mvfrm",
@@ -3367,7 +3353,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 120
+      "DebugActionIndex": 119
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.UIModule.dll_FB99CE557FB01575.mvfrm",
@@ -3388,7 +3374,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 121
+      "DebugActionIndex": 120
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.UmbraModule.dll_037A12CAD68A0BEC.mvfrm",
@@ -3409,7 +3395,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 122
+      "DebugActionIndex": 121
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.UnityAnalyticsCommonModule.dll_E6CB686A17F1105D.mvfrm",
@@ -3430,7 +3416,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 123
+      "DebugActionIndex": 122
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.UnityAnalyticsModule.dll_E02E3DAB9D3DD662.mvfrm",
@@ -3451,7 +3437,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 124
+      "DebugActionIndex": 123
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.UnityConnectModule.dll_7EA9559AAF96EBF6.mvfrm",
@@ -3472,7 +3458,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 125
+      "DebugActionIndex": 124
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.UnityConsentModule.dll_504EECC6BCA18246.mvfrm",
@@ -3493,7 +3479,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 126
+      "DebugActionIndex": 125
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.UnityCurlModule.dll_48836AC653781B34.mvfrm",
@@ -3514,7 +3500,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 127
+      "DebugActionIndex": 126
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.UnityWebRequestAssetBundleModule.dll_A1560409D302F2B3.mvfrm",
@@ -3535,7 +3521,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 128
+      "DebugActionIndex": 127
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.UnityWebRequestAudioModule.dll_C388FF0484733C97.mvfrm",
@@ -3556,7 +3542,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 129
+      "DebugActionIndex": 128
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.UnityWebRequestModule.dll_FE673630649BCAB3.mvfrm",
@@ -3577,7 +3563,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 130
+      "DebugActionIndex": 129
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.UnityWebRequestTextureModule.dll_75F5938396FC5B4C.mvfrm",
@@ -3598,7 +3584,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 131
+      "DebugActionIndex": 130
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.UnityWebRequestWWWModule.dll_C48DB66F966F7C48.mvfrm",
@@ -3619,7 +3605,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 132
+      "DebugActionIndex": 131
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.VectorGraphicsModule.dll_57D60316831CFAAF.mvfrm",
@@ -3640,7 +3626,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 133
+      "DebugActionIndex": 132
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.VehiclesModule.dll_1CFEE5AB0C3D0AF8.mvfrm",
@@ -3661,7 +3647,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 134
+      "DebugActionIndex": 133
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.VFXModule.dll_D5333A8B1BAB542B.mvfrm",
@@ -3682,7 +3668,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 135
+      "DebugActionIndex": 134
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.VideoModule.dll_ADAEEB1D0BF57C1E.mvfrm",
@@ -3703,7 +3689,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 136
+      "DebugActionIndex": 135
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.VirtualTexturingModule.dll_3E49CB7AA5E457DE.mvfrm",
@@ -3724,7 +3710,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 137
+      "DebugActionIndex": 136
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.VRModule.dll_4E6BF4DB216A9AED.mvfrm",
@@ -3745,7 +3731,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 138
+      "DebugActionIndex": 137
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.WindModule.dll_A4425FA6D0FA1BA9.mvfrm",
@@ -3766,7 +3752,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 139
+      "DebugActionIndex": 138
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.XRModule.dll_812AB7DFAAA4E84B.mvfrm",
@@ -3787,73 +3773,30 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 140
+      "DebugActionIndex": 139
     },
     {
-      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.WebGL.Extensions.dll_640CD1F40FE3426B.mvfrm",
-      "DisplayName": "Checking for moved APIs",
-      "Action": "\"C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.4f1\\Editor\\Data\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Unity/Hub/Editor/6000.3.4f1/Editor/Data/Tools/BuildPipeline/Compilation/ApiUpdater/ApiUpdater.MovedFromExtractor.dll\" \"Library\\Bee\\artifacts\\mvdfrm\\UnityEditor.WebGL.Extensions.dll_640CD1F40FE3426B.mvfrm\" \"C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.4f1\\Editor\\Data\\PlaybackEngines\\WebGLSupport\\UnityEditor.WebGL.Extensions.dll\"",
-      "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/6000.3.4f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll",
-        "C:/Program Files/Unity/Hub/Editor/6000.3.4f1/Editor/Data/Tools/BuildPipeline/Compilation/ApiUpdater/ApiUpdater.MovedFromExtractor.dll"
-      ],
-      "InputFlags": [
-        0,
-        0
-      ],
-      "Outputs": [
-        "Library/Bee/artifacts/mvdfrm/UnityEditor.WebGL.Extensions.dll_640CD1F40FE3426B.mvfrm"
-      ],
-      "OutputFlags": [
-        0
-      ],
-      "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 141
-    },
-    {
-      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.WindowsStandalone.Extensions.dll_AFAF491F30764DDB.mvfrm",
-      "DisplayName": "Checking for moved APIs",
-      "Action": "\"C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.4f1\\Editor\\Data\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Unity/Hub/Editor/6000.3.4f1/Editor/Data/Tools/BuildPipeline/Compilation/ApiUpdater/ApiUpdater.MovedFromExtractor.dll\" \"Library\\Bee\\artifacts\\mvdfrm\\UnityEditor.WindowsStandalone.Extensions.dll_AFAF491F30764DDB.mvfrm\" \"C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.4f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\UnityEditor.WindowsStandalone.Extensions.dll\"",
-      "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/6000.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll",
-        "C:/Program Files/Unity/Hub/Editor/6000.3.4f1/Editor/Data/Tools/BuildPipeline/Compilation/ApiUpdater/ApiUpdater.MovedFromExtractor.dll"
-      ],
-      "InputFlags": [
-        0,
-        0
-      ],
-      "Outputs": [
-        "Library/Bee/artifacts/mvdfrm/UnityEditor.WindowsStandalone.Extensions.dll_AFAF491F30764DDB.mvfrm"
-      ],
-      "OutputFlags": [
-        0
-      ],
-      "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 142
-    },
-    {
-      "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Center.Common.dll.mvfrm.rsp",
-      "DisplayName": "Writing Unity.Multiplayer.Center.Common.dll.mvfrm.rsp",
+      "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll.mvfrm.rsp",
+      "DisplayName": "Writing Assembly-CSharp.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 38401,
-      "PayloadLength": 11905,
+      "PayloadOffset": 38039,
+      "PayloadLength": 11645,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
-        "Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Center.Common.dll.mvfrm.rsp"
+        "Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll.mvfrm.rsp"
       ],
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 143
+      "DebugActionIndex": 140
     },
     {
-      "Annotation": "MovedFromExtractor-Combine Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Center.Common.dll.mvfrm",
+      "Annotation": "MovedFromExtractor-Combine Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll.mvfrm",
       "DisplayName": "Checking for moved APIs",
-      "Action": "\"C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.4f1\\Editor\\Data\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Unity/Hub/Editor/6000.3.4f1/Editor/Data/Tools/BuildPipeline/Compilation/ApiUpdater/ApiUpdater.MovedFromExtractor.dll\" \"Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Center.Common.dll.mvfrm\" \"@Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Center.Common.dll.mvfrm.rsp\"",
+      "Action": "\"C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.4f1\\Editor\\Data\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Unity/Hub/Editor/6000.3.4f1/Editor/Data/Tools/BuildPipeline/Compilation/ApiUpdater/ApiUpdater.MovedFromExtractor.dll\" \"Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll.mvfrm\" \"@Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll.mvfrm.rsp\"",
       "Inputs": [
-        "Library/Bee/artifacts/mvdfrm/UnityEditor.Graphs.dll_E09E66BF46F06747.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEditor.AccessibilityModule.dll_55D540E1D269E7BC.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEditor.AdaptivePerformanceModule.dll_7B726311D6FC8508.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEditor.AssetComplianceModule.dll_B4047E52E2834EE9.mvfrm",
@@ -3988,15 +3931,10 @@
         "Library/Bee/artifacts/mvdfrm/UnityEngine.VRModule.dll_4E6BF4DB216A9AED.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.WindModule.dll_A4425FA6D0FA1BA9.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.XRModule.dll_812AB7DFAAA4E84B.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/UnityEditor.WebGL.Extensions.dll_640CD1F40FE3426B.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/UnityEditor.WindowsStandalone.Extensions.dll_AFAF491F30764DDB.mvfrm",
         "C:/Program Files/Unity/Hub/Editor/6000.3.4f1/Editor/Data/Tools/BuildPipeline/Compilation/ApiUpdater/ApiUpdater.MovedFromExtractor.dll",
-        "Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Center.Common.dll.mvfrm.rsp"
+        "Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll.mvfrm.rsp"
       ],
       "InputFlags": [
-        0,
-        0,
-        0,
         0,
         0,
         0,
@@ -4135,7 +4073,7 @@
         0
       ],
       "Outputs": [
-        "Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Center.Common.dll.mvfrm"
+        "Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll.mvfrm"
       ],
       "OutputFlags": [
         0
@@ -4275,69 +4213,66 @@
         137,
         138,
         139,
-        140,
-        141,
-        142,
-        143
+        140
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 144
+      "DebugActionIndex": 141
     },
     {
-      "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Center.Editor.UnityAdditionalFile.txt",
-      "DisplayName": "Writing Unity.Multiplayer.Center.Editor.UnityAdditionalFile.txt",
+      "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.UnityAdditionalFile.txt",
+      "DisplayName": "Writing Assembly-CSharp-Editor.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-      "PayloadOffset": 50428,
+      "PayloadOffset": 49797,
       "PayloadLength": 32,
       "PayloadDebugContentSnippet": "C:\\dev\\steller\\stellar-archite",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
-        "Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Center.Editor.UnityAdditionalFile.txt"
+        "Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.UnityAdditionalFile.txt"
       ],
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 145
+      "DebugActionIndex": 142
     },
     {
-      "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Center.Editor.rsp",
-      "DisplayName": "Writing Unity.Multiplayer.Center.Editor.rsp",
+      "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.rsp",
+      "DisplayName": "Writing Assembly-CSharp-Editor.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 50562,
-      "PayloadLength": 43223,
+      "PayloadOffset": 49922,
+      "PayloadLength": 38663,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
-        "Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Center.Editor.rsp"
+        "Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.rsp"
       ],
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 146
+      "DebugActionIndex": 143
     },
     {
-      "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Center.Editor.rsp2",
-      "DisplayName": "Writing Unity.Multiplayer.Center.Editor.rsp2",
+      "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.rsp2",
+      "DisplayName": "Writing Assembly-CSharp-Editor.rsp2",
       "ActionType": "WriteFile",
-      "PayloadOffset": 93888,
-      "PayloadLength": 45,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\dev\\steller\\stell",
+      "PayloadOffset": 88679,
+      "PayloadLength": 0,
+      "PayloadDebugContentSnippet": "",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
-        "Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Center.Editor.rsp2"
+        "Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.rsp2"
       ],
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 147
+      "DebugActionIndex": 144
     },
     {
-      "Annotation": "Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Center.Editor.dll (+2 others)",
-      "DisplayName": "Compiling C# (Unity.Multiplayer.Center.Editor)",
-      "Action": "\"C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.4f1\\Editor\\Data\\NetCoreRuntime\\dotnet.exe\" exec \"C:/Program Files/Unity/Hub/Editor/6000.3.4f1/Editor/Data/DotNetSdkRoslyn/csc.dll\" /nostdlib /noconfig /shared \"@Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Center.Editor.rsp\" \"@Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Center.Editor.rsp2\"",
+      "Annotation": "Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll (+2 others)",
+      "DisplayName": "Compiling C# (Assembly-CSharp-Editor)",
+      "Action": "\"C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.4f1\\Editor\\Data\\NetCoreRuntime\\dotnet.exe\" exec \"C:/Program Files/Unity/Hub/Editor/6000.3.4f1/Editor/Data/DotNetSdkRoslyn/csc.dll\" /nostdlib /noconfig /shared \"@Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.rsp\" \"@Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.rsp2\"",
       "Inputs": [
         "C:/Program Files/Unity/Hub/Editor/6000.3.4f1/Editor/Data/Managed/UnityEditor.Graphs.dll",
         "C:/Program Files/Unity/Hub/Editor/6000.3.4f1/Editor/Data/Managed/UnityEngine/UnityEditor.AccessibilityModule.dll",
@@ -4604,92 +4539,14 @@
         "C:/Program Files/Unity/Hub/Editor/6000.3.4f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Transactions.dll",
         "C:/Program Files/Unity/Hub/Editor/6000.3.4f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Xml.dll",
         "C:/Program Files/Unity/Hub/Editor/6000.3.4f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Xml.Linq.dll",
-        "Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Center.Common.ref.dll",
-        "Library/PackageCache/com.unity.multiplayer.center@f01f4ba8d00a/Editor/Analytics/AnalyticsData.cs",
-        "Library/PackageCache/com.unity.multiplayer.center@f01f4ba8d00a/Editor/Analytics/AnalyticsUtils.cs",
-        "Library/PackageCache/com.unity.multiplayer.center@f01f4ba8d00a/Editor/Analytics/DebugAnalytics.cs",
-        "Library/PackageCache/com.unity.multiplayer.center@f01f4ba8d00a/Editor/Analytics/MultiplayerCenterAnalytics.cs",
-        "Library/PackageCache/com.unity.multiplayer.center@f01f4ba8d00a/Editor/Analytics/MultiplayerCenterAnalyticsFactory.cs",
-        "Library/PackageCache/com.unity.multiplayer.center@f01f4ba8d00a/Editor/Analytics/OnboardingSectionAnalyticsProvider.cs",
-        "Library/PackageCache/com.unity.multiplayer.center@f01f4ba8d00a/Editor/AssemblyInfo.cs",
-        "Library/PackageCache/com.unity.multiplayer.center@f01f4ba8d00a/Editor/Features/PackageManagement.cs",
-        "Library/PackageCache/com.unity.multiplayer.center@f01f4ba8d00a/Editor/MultiplayerCenterWindow/MultiplayerCenterWindow.cs",
-        "Library/PackageCache/com.unity.multiplayer.center@f01f4ba8d00a/Editor/MultiplayerCenterWindow/RecommendationTabView.cs",
-        "Library/PackageCache/com.unity.multiplayer.center@f01f4ba8d00a/Editor/MultiplayerCenterWindow/RecommendationViewBottomBar.cs",
-        "Library/PackageCache/com.unity.multiplayer.center@f01f4ba8d00a/Editor/MultiplayerCenterWindow/TabGroup.cs",
-        "Library/PackageCache/com.unity.multiplayer.center@f01f4ba8d00a/Editor/MultiplayerCenterWindow/UI/QuestionnaireView.cs",
-        "Library/PackageCache/com.unity.multiplayer.center@f01f4ba8d00a/Editor/MultiplayerCenterWindow/UI/QuestionSection.cs",
-        "Library/PackageCache/com.unity.multiplayer.center@f01f4ba8d00a/Editor/MultiplayerCenterWindow/UI/QuestionViewFactory.cs",
-        "Library/PackageCache/com.unity.multiplayer.center@f01f4ba8d00a/Editor/MultiplayerCenterWindow/UI/RecommendationView/PackageSelectionView.cs",
-        "Library/PackageCache/com.unity.multiplayer.center@f01f4ba8d00a/Editor/MultiplayerCenterWindow/UI/RecommendationView/RecommendationItemView.cs",
-        "Library/PackageCache/com.unity.multiplayer.center@f01f4ba8d00a/Editor/MultiplayerCenterWindow/UI/RecommendationView/RecommendationView.cs",
-        "Library/PackageCache/com.unity.multiplayer.center@f01f4ba8d00a/Editor/MultiplayerCenterWindow/UI/RecommendationView/SectionHeader.cs",
-        "Library/PackageCache/com.unity.multiplayer.center@f01f4ba8d00a/Editor/MultiplayerCenterWindow/UI/RecommendationView/SolutionSelectionView.cs",
-        "Library/PackageCache/com.unity.multiplayer.center@f01f4ba8d00a/Editor/MultiplayerCenterWindow/UI/StyleClasses.cs",
-        "Library/PackageCache/com.unity.multiplayer.center@f01f4ba8d00a/Editor/MultiplayerCenterWindow/UI/ViewUtils.cs",
-        "Library/PackageCache/com.unity.multiplayer.center@f01f4ba8d00a/Editor/OnBoarding/GettingStartedTabView.cs",
-        "Library/PackageCache/com.unity.multiplayer.center@f01f4ba8d00a/Editor/OnBoarding/QuickstartPackageHandling.cs",
-        "Library/PackageCache/com.unity.multiplayer.center@f01f4ba8d00a/Editor/OnBoarding/SectionsFinder.cs",
-        "Library/PackageCache/com.unity.multiplayer.center@f01f4ba8d00a/Editor/Questionnaire/Logic.cs",
-        "Library/PackageCache/com.unity.multiplayer.center@f01f4ba8d00a/Editor/Questionnaire/PresetData.cs",
-        "Library/PackageCache/com.unity.multiplayer.center@f01f4ba8d00a/Editor/Questionnaire/QuestionnaireData.cs",
-        "Library/PackageCache/com.unity.multiplayer.center@f01f4ba8d00a/Editor/Questionnaire/QuestionnaireEditor.cs",
-        "Library/PackageCache/com.unity.multiplayer.center@f01f4ba8d00a/Editor/Questionnaire/QuestionnaireObject.cs",
-        "Library/PackageCache/com.unity.multiplayer.center@f01f4ba8d00a/Editor/Questionnaire/UserChoicesObject.cs",
-        "Library/PackageCache/com.unity.multiplayer.center@f01f4ba8d00a/Editor/Recommendations/PreReleaseHandling.cs",
-        "Library/PackageCache/com.unity.multiplayer.center@f01f4ba8d00a/Editor/Recommendations/RecommendationAuthoringData.cs",
-        "Library/PackageCache/com.unity.multiplayer.center@f01f4ba8d00a/Editor/Recommendations/RecommendationType.cs",
-        "Library/PackageCache/com.unity.multiplayer.center@f01f4ba8d00a/Editor/Recommendations/RecommendationUtils.cs",
-        "Library/PackageCache/com.unity.multiplayer.center@f01f4ba8d00a/Editor/Recommendations/RecommendationViewData.cs",
-        "Library/PackageCache/com.unity.multiplayer.center@f01f4ba8d00a/Editor/Recommendations/RecommenderSystem.cs",
-        "Library/PackageCache/com.unity.multiplayer.center@f01f4ba8d00a/Editor/Recommendations/RecommenderSystemData.cs",
-        "Library/PackageCache/com.unity.multiplayer.center@f01f4ba8d00a/Editor/Recommendations/RecommenderSystemDataObject.cs",
-        "Library/PackageCache/com.unity.multiplayer.center@f01f4ba8d00a/Editor/Recommendations/Scoring.cs",
+        "Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.ref.dll",
+        "Assets/Scripts/Physics/Editor/PhysicsSceneSetup.cs",
         "C:/Program Files/Unity/Hub/Editor/6000.3.4f1/Editor/Data/Tools/BuildPipeline/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll",
         "C:/Program Files/Unity/Hub/Editor/6000.3.4f1/Editor/Data/Tools/BuildPipeline/Unity.SourceGenerators/Unity.SourceGenerators.dll",
         "C:/Program Files/Unity/Hub/Editor/6000.3.4f1/Editor/Data/Tools/BuildPipeline/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll",
-        "Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Center.Editor.rsp"
+        "Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.rsp"
       ],
       "InputFlags": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
         0,
         0,
         0,
@@ -4963,9 +4820,9 @@
         8
       ],
       "Outputs": [
-        "Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Center.Editor.dll",
-        "Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Center.Editor.pdb",
-        "Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Center.Editor.ref.dll"
+        "Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll",
+        "Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.pdb",
+        "Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.ref.dll"
       ],
       "OutputFlags": [
         0,
@@ -4974,14 +4831,14 @@
       ],
       "ToBuildDependencies": [
         4,
-        145,
-        146,
-        147,
-        154
+        142,
+        143,
+        144,
+        153
       ],
       "ToUseDependencies": [
-        145,
-        147
+        142,
+        144
       ],
       "AllowUnexpectedOutput": true,
       "Env": [
@@ -4990,15 +4847,14 @@
           "Value": "0"
         }
       ],
-      "CachingMode": "ByDirectInputs",
-      "DebugActionIndex": 148
+      "DebugActionIndex": 145
     },
     {
-      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.Multiplayer.Center.Common.ref.dll_EE36537354EA42C8.mvfrm",
+      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.Graphs.dll_E09E66BF46F06747.mvfrm",
       "DisplayName": "Checking for moved APIs",
-      "Action": "\"C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.4f1\\Editor\\Data\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Unity/Hub/Editor/6000.3.4f1/Editor/Data/Tools/BuildPipeline/Compilation/ApiUpdater/ApiUpdater.MovedFromExtractor.dll\" \"Library\\Bee\\artifacts\\mvdfrm\\Unity.Multiplayer.Center.Common.ref.dll_EE36537354EA42C8.mvfrm\" \"Library\\Bee\\artifacts\\1900b0aE.dag\\Unity.Multiplayer.Center.Common.ref.dll\"",
+      "Action": "\"C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.4f1\\Editor\\Data\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Unity/Hub/Editor/6000.3.4f1/Editor/Data/Tools/BuildPipeline/Compilation/ApiUpdater/ApiUpdater.MovedFromExtractor.dll\" \"Library\\Bee\\artifacts\\mvdfrm\\UnityEditor.Graphs.dll_E09E66BF46F06747.mvfrm\" \"C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.4f1\\Editor\\Data\\Managed\\UnityEditor.Graphs.dll\"",
       "Inputs": [
-        "Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Center.Common.ref.dll",
+        "C:/Program Files/Unity/Hub/Editor/6000.3.4f1/Editor/Data/Managed/UnityEditor.Graphs.dll",
         "C:/Program Files/Unity/Hub/Editor/6000.3.4f1/Editor/Data/Tools/BuildPipeline/Compilation/ApiUpdater/ApiUpdater.MovedFromExtractor.dll"
       ],
       "InputFlags": [
@@ -5006,16 +4862,13 @@
         0
       ],
       "Outputs": [
-        "Library/Bee/artifacts/mvdfrm/Unity.Multiplayer.Center.Common.ref.dll_EE36537354EA42C8.mvfrm"
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.Graphs.dll_E09E66BF46F06747.mvfrm"
       ],
       "OutputFlags": [
         0
       ],
-      "ToBuildDependencies": [
-        4
-      ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 149
+      "DebugActionIndex": 146
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.AMDModule.dll_55C4DEB71E0D6F6B.mvfrm",
@@ -5036,7 +4889,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 150
+      "DebugActionIndex": 147
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.HierarchyModule.dll_EA3B4530AC664548.mvfrm",
@@ -5057,7 +4910,7 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 151
+      "DebugActionIndex": 148
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.NVIDIAModule.dll_C92E41FA0576F9AC.mvfrm",
@@ -5078,31 +4931,72 @@
         0
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 152
+      "DebugActionIndex": 149
     },
     {
-      "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Center.Editor.dll.mvfrm.rsp",
-      "DisplayName": "Writing Unity.Multiplayer.Center.Editor.dll.mvfrm.rsp",
+      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.WebGL.Extensions.dll_640CD1F40FE3426B.mvfrm",
+      "DisplayName": "Checking for moved APIs",
+      "Action": "\"C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.4f1\\Editor\\Data\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Unity/Hub/Editor/6000.3.4f1/Editor/Data/Tools/BuildPipeline/Compilation/ApiUpdater/ApiUpdater.MovedFromExtractor.dll\" \"Library\\Bee\\artifacts\\mvdfrm\\UnityEditor.WebGL.Extensions.dll_640CD1F40FE3426B.mvfrm\" \"C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.4f1\\Editor\\Data\\PlaybackEngines\\WebGLSupport\\UnityEditor.WebGL.Extensions.dll\"",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/6000.3.4f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll",
+        "C:/Program Files/Unity/Hub/Editor/6000.3.4f1/Editor/Data/Tools/BuildPipeline/Compilation/ApiUpdater/ApiUpdater.MovedFromExtractor.dll"
+      ],
+      "InputFlags": [
+        0,
+        0
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.WebGL.Extensions.dll_640CD1F40FE3426B.mvfrm"
+      ],
+      "OutputFlags": [
+        0
+      ],
+      "AllowUnexpectedOutput": true,
+      "DebugActionIndex": 150
+    },
+    {
+      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.WindowsStandalone.Extensions.dll_AFAF491F30764DDB.mvfrm",
+      "DisplayName": "Checking for moved APIs",
+      "Action": "\"C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.4f1\\Editor\\Data\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Unity/Hub/Editor/6000.3.4f1/Editor/Data/Tools/BuildPipeline/Compilation/ApiUpdater/ApiUpdater.MovedFromExtractor.dll\" \"Library\\Bee\\artifacts\\mvdfrm\\UnityEditor.WindowsStandalone.Extensions.dll_AFAF491F30764DDB.mvfrm\" \"C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.4f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\UnityEditor.WindowsStandalone.Extensions.dll\"",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/6000.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll",
+        "C:/Program Files/Unity/Hub/Editor/6000.3.4f1/Editor/Data/Tools/BuildPipeline/Compilation/ApiUpdater/ApiUpdater.MovedFromExtractor.dll"
+      ],
+      "InputFlags": [
+        0,
+        0
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/mvdfrm/UnityEditor.WindowsStandalone.Extensions.dll_AFAF491F30764DDB.mvfrm"
+      ],
+      "OutputFlags": [
+        0
+      ],
+      "AllowUnexpectedOutput": true,
+      "DebugActionIndex": 151
+    },
+    {
+      "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll.mvfrm.rsp",
+      "DisplayName": "Writing Assembly-CSharp-Editor.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 94045,
-      "PayloadLength": 12244,
+      "PayloadOffset": 88782,
+      "PayloadLength": 12151,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
-        "Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Center.Editor.dll.mvfrm.rsp"
+        "Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll.mvfrm.rsp"
       ],
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 153
+      "DebugActionIndex": 152
     },
     {
-      "Annotation": "MovedFromExtractor-Combine Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Center.Editor.dll.mvfrm",
+      "Annotation": "MovedFromExtractor-Combine Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll.mvfrm",
       "DisplayName": "Checking for moved APIs",
-      "Action": "\"C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.4f1\\Editor\\Data\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Unity/Hub/Editor/6000.3.4f1/Editor/Data/Tools/BuildPipeline/Compilation/ApiUpdater/ApiUpdater.MovedFromExtractor.dll\" \"Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Center.Editor.dll.mvfrm\" \"@Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Center.Editor.dll.mvfrm.rsp\"",
+      "Action": "\"C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.4f1\\Editor\\Data\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Unity/Hub/Editor/6000.3.4f1/Editor/Data/Tools/BuildPipeline/Compilation/ApiUpdater/ApiUpdater.MovedFromExtractor.dll\" \"Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll.mvfrm\" \"@Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll.mvfrm.rsp\"",
       "Inputs": [
-        "Library/Bee/artifacts/mvdfrm/Unity.Multiplayer.Center.Common.ref.dll_EE36537354EA42C8.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEditor.Graphs.dll_E09E66BF46F06747.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEditor.AccessibilityModule.dll_55D540E1D269E7BC.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEditor.AdaptivePerformanceModule.dll_7B726311D6FC8508.mvfrm",
@@ -5244,10 +5138,9 @@
         "Library/Bee/artifacts/mvdfrm/UnityEditor.WebGL.Extensions.dll_640CD1F40FE3426B.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEditor.WindowsStandalone.Extensions.dll_AFAF491F30764DDB.mvfrm",
         "C:/Program Files/Unity/Hub/Editor/6000.3.4f1/Editor/Data/Tools/BuildPipeline/Compilation/ApiUpdater/ApiUpdater.MovedFromExtractor.dll",
-        "Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Center.Editor.dll.mvfrm.rsp"
+        "Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll.mvfrm.rsp"
       ],
       "InputFlags": [
-        0,
         0,
         0,
         0,
@@ -5392,7 +5285,7 @@
         0
       ],
       "Outputs": [
-        "Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Center.Editor.dll.mvfrm"
+        "Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll.mvfrm"
       ],
       "OutputFlags": [
         0
@@ -5532,30 +5425,50 @@
         137,
         138,
         139,
-        140,
-        141,
-        142,
+        146,
+        147,
+        148,
         149,
         150,
         151,
-        152,
-        153
+        152
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 154
+      "DebugActionIndex": 153
     },
     {
-      "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.Multiplayer.Center.Common.dll",
-      "DisplayName": "Copying Unity.Multiplayer.Center.Common.dll",
+      "Annotation": "CopyFiles Library/ScriptAssemblies/Assembly-CSharp.dll",
+      "DisplayName": "Copying Assembly-CSharp.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Center.Common.dll"
+        "Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll"
       ],
       "InputFlags": [
         0
       ],
       "Outputs": [
-        "Library/ScriptAssemblies/Unity.Multiplayer.Center.Common.dll"
+        "Library/ScriptAssemblies/Assembly-CSharp.dll"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "ToBuildDependencies": [
+        4
+      ],
+      "DebugActionIndex": 154
+    },
+    {
+      "Annotation": "CopyFiles Library/ScriptAssemblies/Assembly-CSharp.pdb",
+      "DisplayName": "Copying Assembly-CSharp.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.pdb"
+      ],
+      "InputFlags": [
+        0
+      ],
+      "Outputs": [
+        "Library/ScriptAssemblies/Assembly-CSharp.pdb"
       ],
       "OutputFlags": [
         2
@@ -5566,76 +5479,55 @@
       "DebugActionIndex": 155
     },
     {
-      "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.Multiplayer.Center.Common.pdb",
-      "DisplayName": "Copying Unity.Multiplayer.Center.Common.pdb",
+      "Annotation": "CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.dll",
+      "DisplayName": "Copying Assembly-CSharp-Editor.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Center.Common.pdb"
+        "Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll"
       ],
       "InputFlags": [
         0
       ],
       "Outputs": [
-        "Library/ScriptAssemblies/Unity.Multiplayer.Center.Common.pdb"
+        "Library/ScriptAssemblies/Assembly-CSharp-Editor.dll"
       ],
       "OutputFlags": [
         2
       ],
       "ToBuildDependencies": [
-        4
+        145
       ],
       "DebugActionIndex": 156
     },
     {
-      "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.dll",
-      "DisplayName": "Copying Unity.Multiplayer.Center.Editor.dll",
+      "Annotation": "CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.pdb",
+      "DisplayName": "Copying Assembly-CSharp-Editor.pdb",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Center.Editor.dll"
+        "Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.pdb"
       ],
       "InputFlags": [
         0
       ],
       "Outputs": [
-        "Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.dll"
+        "Library/ScriptAssemblies/Assembly-CSharp-Editor.pdb"
       ],
       "OutputFlags": [
         2
       ],
       "ToBuildDependencies": [
-        148
+        145
       ],
       "DebugActionIndex": 157
     },
     {
-      "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.pdb",
-      "DisplayName": "Copying Unity.Multiplayer.Center.Editor.pdb",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Center.Editor.pdb"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.pdb"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        148
-      ],
-      "DebugActionIndex": 158
-    },
-    {
       "Annotation": "BuildPlayerDataGenerator Library/BuildPlayerData/Editor/TypeDb-All.json",
       "DisplayName": "Extracting script serialization layouts",
-      "Action": "\"C:/Program Files/Unity/Hub/Editor/6000.3.4f1/Editor/Data\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Unity/Hub/Editor/6000.3.4f1/Editor/Data/Tools/BuildPipeline/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe\" -a=\"C:\\dev\\steller\\stellar-architect\\Library\\ScriptAssemblies\\Unity.Multiplayer.Center.Common.dll\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.4f1\\Editor\\Data\\Managed\\UnityEngine\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.4f1\\Editor\\Data\\NetStandard\\compat\\2.1.0\\shims\\netfx\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.4f1\\Editor\\Data\\NetStandard\\compat\\2.1.0\\shims\\netstandard\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.4f1\\Editor\\Data\\NetStandard\\EditorExtensions\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.4f1\\Editor\\Data\\NetStandard\\Extensions\\2.0.0\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.4f1\\Editor\\Data\\NetStandard\\ref\\2.1.0\" -s=\"C:\\dev\\steller\\stellar-architect\\Library\\ScriptAssemblies\" -o=\"Library/BuildPlayerData/Editor\" -rn=\"\" -tn=\"TypeDb-All.json\"",
+      "Action": "\"C:/Program Files/Unity/Hub/Editor/6000.3.4f1/Editor/Data\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Unity/Hub/Editor/6000.3.4f1/Editor/Data/Tools/BuildPipeline/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe\" -a=\"C:\\dev\\steller\\stellar-architect\\Library\\ScriptAssemblies\\Assembly-CSharp.dll\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.4f1\\Editor\\Data\\Managed\\UnityEngine\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.4f1\\Editor\\Data\\NetStandard\\compat\\2.1.0\\shims\\netfx\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.4f1\\Editor\\Data\\NetStandard\\compat\\2.1.0\\shims\\netstandard\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.4f1\\Editor\\Data\\NetStandard\\EditorExtensions\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.4f1\\Editor\\Data\\NetStandard\\Extensions\\2.0.0\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.4f1\\Editor\\Data\\NetStandard\\ref\\2.1.0\" -s=\"C:\\dev\\steller\\stellar-architect\\Library\\ScriptAssemblies\" -o=\"Library/BuildPlayerData/Editor\" -rn=\"\" -tn=\"TypeDb-All.json\"",
       "Inputs": [
         "C:/Program Files/Unity/Hub/Editor/6000.3.4f1/Editor/Data/netcorerun/netcorerun.exe",
         "C:/Program Files/Unity/Hub/Editor/6000.3.4f1/Editor/Data/Tools/BuildPipeline/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe",
-        "Library/ScriptAssemblies/Unity.Multiplayer.Center.Common.dll"
+        "Library/ScriptAssemblies/Assembly-CSharp.dll"
       ],
       "InputFlags": [
         0,
@@ -5649,10 +5541,10 @@
         0
       ],
       "ToBuildDependencies": [
-        155
+        154
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 159
+      "DebugActionIndex": 158
     },
     {
       "Annotation": "ScriptAssembliesAndTypeDB",
@@ -5663,9 +5555,9 @@
       "OutputFlags": [],
       "ToBuildDependencies": [
         6,
-        159
+        158
       ],
-      "DebugActionIndex": 160
+      "DebugActionIndex": 159
     }
   ],
   "FileSignatures": [
@@ -5790,12 +5682,6 @@
     },
     {
       "File": "Library/Bee/1900b0aE-inputdata.json"
-    },
-    {
-      "File": "Library/PackageCache/com.unity.multiplayer.center@f01f4ba8d00a/Common/csc.rsp"
-    },
-    {
-      "File": "Library/PackageCache/com.unity.multiplayer.center@f01f4ba8d00a/Editor/csc.rsp"
     }
   ],
   "GlobSignatures": [
@@ -5824,7 +5710,7 @@
         "NamedNodes": {
           "all_tundra_nodes": 0,
           "ScriptAssemblies": 6,
-          "ScriptAssembliesAndTypeDB": 160
+          "ScriptAssembliesAndTypeDB": 159
         }
 ,  "DefaultNodes": [
     0

@@ -1,146 +1,91 @@
 using UnityEngine;
 using StellarArchitect.Physics.Core;
+using StellarArchitect.Physics.Config;
 
 namespace StellarArchitect.Physics.Components
 {
-    /// <summary>
-    /// Physics body component for stellar objects.
-    /// Follows Single Responsibility: Manages physics state for a single body.
-    /// Follows Component Pattern: Unity MonoBehaviour integration.
-    /// Implements IPhysicsBody for polymorphic physics calculations.
-    /// </summary>
     [RequireComponent(typeof(Rigidbody))]
     public class PhysicsBody : MonoBehaviour, IPhysicsBody
     {
         [Header("Physical Properties")]
-        [SerializeField, Tooltip("Mass of the stellar body (solar masses)")]
-        private float mass = 0.3f;
-        
-        [SerializeField, Tooltip("Current density (g/cm³) - calculated from mass and volume")]
-        private float density = 1.0f;
+        [SerializeField] private float mass = 0.3f;
+        [SerializeField] private float density = 1.0f;
+
+        [Header("Star Formation")]
+        [SerializeField, ReadOnly] private StarType currentStarType = StarType.None;
+        [SerializeField] private PhysicsConstants physicsConstants;
 
         [Header("Runtime State")]
-        [SerializeField, ReadOnly]
-        private Vector3 velocity;
-        
-        [SerializeField, ReadOnly]
-        private Vector3 acceleration;
-
+        [SerializeField, ReadOnly] private Vector3 velocity;
+        [SerializeField, ReadOnly] private Vector3 acceleration;
         private Rigidbody rb;
-
-        #region IPhysicsBody Implementation
 
         public float Mass => mass;
         public float Density => density;
-        
+        public StarType CurrentStarType => currentStarType;
         public Vector3 Position => transform.position;
-        
-        public Vector3 Velocity 
-        { 
-            get => velocity; 
-            set => velocity = value; 
-        }
-        
+        public Vector3 Velocity { get => velocity; set => velocity = value; }
         public Vector3 Acceleration => acceleration;
 
-        public void ApplyForce(Vector3 force)
-        {
-            if (mass > 0)
-            {
-                acceleration += force / mass;
-            }
-        }
-
-        public void ResetAcceleration()
-        {
-            acceleration = Vector3.zero;
-        }
-
-        #endregion
-
-        #region Unity Lifecycle
+        public void ApplyForce(Vector3 force) { if (mass > 0) acceleration += force / mass; }
+        public void ResetAcceleration() => acceleration = Vector3.zero;
 
         private void Awake()
         {
             rb = GetComponent<Rigidbody>();
-            rb.useGravity = false; // Use custom gravity system
-            rb.isKinematic = true; // Manual physics control
+            rb.useGravity = false;
+            rb.isKinematic = true;
         }
 
-        private void Start()
-        {
-            CalculateDensity();
-        }
+        private void Start() => CheckStarFormation();
 
-        /// <summary>
-        /// Update physics state using semi-implicit Euler integration.
-        /// Called by GravitySystem to maintain consistent update order.
-        /// </summary>
         public void UpdatePhysics(float deltaTime)
         {
-            // Semi-implicit Euler: v(t+dt) = v(t) + a(t) * dt
             velocity += acceleration * deltaTime;
-            
-            // Update position: p(t+dt) = p(t) + v(t+dt) * dt
             transform.position += velocity * deltaTime;
-            
-            // Reset acceleration for next frame (forces are reapplied each frame)
             ResetAcceleration();
         }
 
-        #endregion
-
-        #region Density Calculation
-
-        /// <summary>
-        /// Calculate density from mass and volume.
-        /// Assumes spherical body: density = mass / (4/3 * ? * r³)
-        /// </summary>
-        private void CalculateDensity()
+        public void CheckStarFormation()
         {
-            float radius = transform.localScale.x * 0.5f; // Assume uniform scale
-            float volume = (4f / 3f) * Mathf.PI * Mathf.Pow(radius, 3);
-            
-            if (volume > 0)
-            {
-                density = mass / volume;
-            }
+            if (physicsConstants == null) { currentStarType = StarType.None; return; }
+            if (physicsConstants.blackHoleThreshold.IsMet(mass, density)) currentStarType = StarType.BlackHole;
+            else if (physicsConstants.blueGiantThreshold.IsMet(mass, density)) currentStarType = StarType.BlueGiant;
+            else if (physicsConstants.yellowStarThreshold.IsMet(mass, density)) currentStarType = StarType.YellowStar;
+            else if (physicsConstants.redDwarfThreshold.IsMet(mass, density)) currentStarType = StarType.RedDwarf;
+            else currentStarType = StarType.None;
         }
 
-        /// <summary>
-        /// Recalculate density when mass or scale changes.
-        /// </summary>
-        public void UpdateDensity()
+        public void MergeWith(PhysicsBody other)
         {
-            CalculateDensity();
+            if (other == null || other == this) return;
+            float totalMass = mass + other.Mass;
+            density = (density * mass + other.Density * other.Mass) / totalMass;
+            velocity = (velocity * mass + other.Velocity * other.Mass) / totalMass;
+            mass = totalMass;
+            CheckStarFormation();
+            Destroy(other.gameObject);
         }
 
-        #endregion
+        public bool CanMergeWith(PhysicsBody other, float mergeDistance = 1.0f)
+        {
+            if (other == null || other == this) return false;
+            return Vector3.Distance(Position, other.Position) <= mergeDistance;
+        }
 
-        #region Debug Visualization
+        public void SetMass(float newMass) { mass = Mathf.Max(0f, newMass); CheckStarFormation(); }
+        public void SetDensity(float newDensity) { density = Mathf.Max(0f, newDensity); CheckStarFormation(); }
 
         private void OnDrawGizmos()
         {
-            // Visualize velocity vector
             if (Application.isPlaying && velocity.magnitude > 0.01f)
             {
                 Gizmos.color = Color.cyan;
                 Gizmos.DrawLine(transform.position, transform.position + velocity.normalized * 2f);
             }
-
-            // Visualize acceleration vector
-            if (Application.isPlaying && acceleration.magnitude > 0.01f)
-            {
-                Gizmos.color = Color.yellow;
-                Gizmos.DrawLine(transform.position, transform.position + acceleration.normalized * 1.5f);
-            }
         }
-
-        #endregion
     }
 
-    /// <summary>
-    /// Custom attribute for read-only display in inspector.
-    /// </summary>
+    public enum StarType { None, RedDwarf, YellowStar, BlueGiant, BlackHole }
     public class ReadOnlyAttribute : PropertyAttribute { }
 }

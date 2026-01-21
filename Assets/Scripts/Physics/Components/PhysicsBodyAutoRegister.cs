@@ -1,5 +1,6 @@
 using UnityEngine;
 using StellarArchitect.Physics.Systems;
+using StellarArchitect.Physics.Components;
 
 namespace StellarArchitect.Physics.Components
 {
